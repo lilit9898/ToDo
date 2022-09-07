@@ -1,0 +1,28 @@
+.dayDiv {
+  padding: 30px;
+  color: rgb(245, 240, 255);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.todoList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 30px;
+  color: rgb(219, 209, 227);
+  padding: 0 30px;
+}
+
+.open {
+  transform: rotate(180deg);
+  width: 11px;
+  height: 11px;
+}
+
+.closed {
+  transform: rotate(0deg);
+  width: 11px;
+  height: 11px;
+}

@@ -1,0 +1,45 @@
+.newTodoCont {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.inputImg {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.inputContainer {
+  width: 90%;
+  height: 0%;
+}
+
+.input {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(221, 209, 231, 0.867);
+  outline: none;
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(30, 11, 40);
+  font-size: 18px;
+}
+
+.sendIconCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sendIcon {
+  width: 28px;
+  height: 28px;
+}

@@ -1,0 +1,44 @@
+.windowContainer {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  background-color: rgba(22, 6, 45, 0.919);
+  border-radius: 10%;
+  gap: 0px;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
+}
+
+.dayDiv {
+  padding: 30px;
+  color: rgb(245, 240, 255);
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.open {
+  transform: rotate(180deg);
+  width: 11px;
+  height: 11px;
+}
+
+.closed {
+  transform: rotate(0deg);
+  width: 11px;
+  height: 11px;
+}
+.inputCont {
+  flex-direction: row;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+}
+
+.todo {
+  display: flex;
+  gap: 5px;
+}

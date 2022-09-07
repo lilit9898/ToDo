@@ -1,0 +1,48 @@
+input[type='checkbox']:checked + label.strikethrough {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+#mdiv {
+  display: flex;
+  width: 15px;
+  height: 17px;
+  background-color: rgb(246, 246, 246);
+  border: 1px solid rgb(175, 148, 203);
+  border-radius: 3px;
+}
+
+.mdiv {
+  height: 16px;
+  width: 2px;
+  margin-left: 5.4px;
+  background-color: black;
+  transform: rotate(50deg);
+  z-index: 1;
+}
+
+.md {
+  height: 16px;
+  width: 2px;
+  background-color: black;
+  transform: rotate(80deg);
+  z-index: 2;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.xbuttonContainer {
+  margin-left: auto;
+}
+.strikethrough {
+  margin-left: 20px;
+  cursor: pointer;
+}
